@@ -182,24 +182,6 @@ tensorboard
 
 ---
 
-## FAQ
-
-**Q: Do I need to download model weights manually?**
-A: No. The PyPI package automatically downloads pre-trained weights.
-
-**Q: What image formats are supported?**
-A: JPG, PNG, BMP, TIFF - anything OpenCV can read.
-
-**Q: Can I use GPU?**
-A: Yes. Automatically uses GPU if available.
-
-**Q: When should I train a custom model?**
-A: Only if the default model doesn't work well for your specific document types.
-
-**Q: Can I process images from any location?**
-A: Yes. Just provide the full path to the image.
-
----
 
 ## Model Details
 
@@ -218,12 +200,3 @@ For most users:
 2. Run `python inference_pypi.py --image your_image.jpg`
 3. Get scanned document in `outputs/` folder
 
-For advanced users:
-- Setup training environment
-- Prepare custom dataset with annotations
-- Train fine-tuned model
-- Use for better accuracy on specific documents
-
----
-
-Clean, simple, production-ready.
