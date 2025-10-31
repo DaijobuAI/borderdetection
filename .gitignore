@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.Python
+*.egg-info/
+venv/
+.venv/
+env/
+.python-version
+
+# Model files
+*.pth
+*.onnx
+
+# Images
+*.jpg
+*.jpeg
+*.png
+*.bmp
+*.tiff
+
+# Folders
+training_images/
+scanned_outputs/
+
+# IDE
+.vscode/
+.idea/
+.claude/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Keep example files
+!README_ULTRA_SIMPLE.md
