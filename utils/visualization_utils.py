@@ -79,13 +79,13 @@ def create_visualization(original_image: np.ndarray,
         
         if save_path:
             cv2.imwrite(save_path, combined)
-            print(f"✅ Visualization saved: {save_path}")
+            print(f" Visualization saved: {save_path}")
         
         return combined
     else:
         if save_path:
             cv2.imwrite(save_path, vis_original)
-            print(f"✅ Visualization saved: {save_path}")
+            print(f" Visualization saved: {save_path}")
         
         return vis_original
 
@@ -113,4 +113,3 @@ def add_text_overlay(image: np.ndarray,
     vis_image = image.copy()
     cv2.putText(vis_image, text, position, cv2.FONT_HERSHEY_SIMPLEX,
                 font_scale, color, thickness)
-    return vis_image

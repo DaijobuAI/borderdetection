@@ -1,13 +1,9 @@
-# Python
+s i# Python
 __pycache__/
 *.py[cod]
 *.so
 .Python
 *.egg-info/
-venv/
-.venv/
-env/
-.python-version
 
 # Model files
 *.pth
@@ -27,7 +23,6 @@ scanned_outputs/
 # IDE
 .vscode/
 .idea/
-.claude/
 
 # OS
 .DS_Store

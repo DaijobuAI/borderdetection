@@ -39,7 +39,7 @@ def save_image(image: np.ndarray, output_path: str) -> None:
     output_path = Path(output_path)
     output_path.parent.mkdir(parents=True, exist_ok=True)
     cv2.imwrite(str(output_path), image)
-    print(f"✅ Saved: {output_path}")
+    print(f" Saved: {output_path}")
 
 
 def resize_image(image: np.ndarray, size: Tuple[int, int]) -> np.ndarray:
