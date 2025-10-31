@@ -68,12 +68,6 @@ Each processed image gets its own folder:
 
 ```
 outputs/
-├── receipt/
-│   ├── scanned_receipt.jpg
-│   └── visualization_receipt.jpg
-├── invoice/
-│   ├── scanned_invoice.jpg
-│   └── visualization_invoice.jpg
 └── test1/
     ├── scanned_test1.jpg
     └── visualization_test1.jpg
